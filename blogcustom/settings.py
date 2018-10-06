@@ -148,3 +148,7 @@ STATIC_ROOT = '/home/Jaimeardp/blogcustom/'
 
 LOGIN_REDIRECT_URL = 'pages:pages'
 LOGOUT_REDIRECT_URL = 'home'
+
+# Media Files
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
